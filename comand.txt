@@ -1,0 +1,14 @@
+To start tailwind project
+
+1) npm init
+2) yarn add -D tailwindcss postcss
+3) npx tailwindcss init
+4) content: ['index.html'], (in tailwind.config.js)
+5) src folder main.css
+6) in main.css 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+7) add in package.json --> "scripts": "build": "tailwindcss build -i src/main.css -o public/style.css"
+8) yarn build in terminal
+
