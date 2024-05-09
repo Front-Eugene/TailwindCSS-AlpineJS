@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .navitems>li>a {
-    @apply p-4 hover:bg-gray-700 rounded-lg;
+    @apply px-4 h-12 hover:bg-gray-700 rounded-lg flex items-center gap-2;
 }
