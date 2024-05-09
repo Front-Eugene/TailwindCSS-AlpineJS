@@ -640,6 +640,18 @@ video {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'https\:\/\/live\.staticflickr\.com\/65535\/49909538937_3255dcf9e7_b\.jpg\'\)\] {
+  background-image: url('https://live.staticflickr.com/65535/49909538937_3255dcf9e7_b.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
