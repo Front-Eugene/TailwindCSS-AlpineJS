@@ -5,3 +5,16 @@
 .navitems>li>a {
     @apply px-4 h-12 hover:bg-gray-700 rounded-lg flex items-center gap-2;
 }
+
+.hoverlist>* {
+    @apply hover:bg-gray-100 rounded-md transition duration-150;
+}
+
+.hoverlist>*>a {
+    @apply cursor-pointer flex items-center p-2;
+}
+
+
+.highlight {
+    @apply !bg-indigo-100;   
+}
